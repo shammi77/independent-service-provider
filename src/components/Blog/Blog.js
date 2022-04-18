@@ -38,14 +38,14 @@ const Blog = () => {
         3. What other services does firebase provide other than authentication?
       </h4>
       <p>
-        --Back4App-- Back4app is a reliable Firebase option that works with an
+        --Back4App--<br/> Back4app is a reliable Firebase option that works with an
         amalgamation of open-source technologies. The platform is clear to use
         and has a low learning angle.
+<br/>
+        --Parse-- <br/>
+Parse is a complete application stack that will help you build applications faster.<br/>
 
-        --Parse--
-Parse is a complete application stack that will help you build applications faster.
-
---AWS Amplify--
+--AWS Amplify--<br/>
 AWS Amplify allows web and mobile developers to create full-stack applications with a set o fit-to-purpose tools and components.
       </p>
     </div>

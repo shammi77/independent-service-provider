@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Dhaka Package",
+        "price": "12500",
+        "description": "1 Top Photographer.Event Duration 4 Hours.Number of Pictures Unlimited (All post processed)",
+        "img":"https://ibb.co/vZXNPbK"
+    },
+    {
+        "id": 2,
+        "name": "Chottogram Package",
+        "price": "13000",
+        "description": "2 Top Photographer.Event Duration 5 Hours.Number of Pictures Unlimited (All post processed)",
+        "img":"https://ibb.co/TP1qv5v"
+    },
+{
+    "id": 3,
+    "name": "Sylhet Package",
+    "price": "15000",
+    "description": "3 Top Photographer.Event Duration 6 Hours.Number of Pictures Unlimited (All post processed)",
+    "img":" https://ibb.co/B2YWJVv"
+},
+{
+    "id": 4,
+    "name": "Rajshahi Package",
+    "price": "13500",
+    "description": "2 Top Photographer.Event Duration 4 Hours.Number of Pictures Unlimited (All post processed)",
+    "img":"https://ibb.co/bJGGNKL"
+},
+{
+    "id": 5,
+    "name": "Khulna Package",
+    "price": "12000",
+    "description": "1 Top Photographer.Event Duration 3 Hours.Number of Pictures Unlimited (All post processed)",
+    "img":"https://ibb.co/GTYbxGt"
+    
+}
+]
