@@ -12,7 +12,8 @@ const Header = () => {
     signOut(auth);
   };
   return (
-    <Navbar bg="primary" text-align="center">
+   <div className="container">
+      <Navbar bg="primary">
       <Nav className="header m-auto w-50">
         <Link to="/home">Home</Link>
         <Link to="/about">About</Link>
@@ -25,6 +26,7 @@ const Header = () => {
         )}
       </Nav>
     </Navbar>
+   </div>
   );
 };
 

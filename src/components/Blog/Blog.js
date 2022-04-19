@@ -2,9 +2,9 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div>
+    <div className='m-3 container'>
       <h2>This is blog Section</h2>
-      <h3>Question and Answer</h3>
+      <h3 className='text-center'>Question and Answer</h3>
       <h4>1. Difference between authorization and authentication</h4>
       <p>
         Authentication is the method of defining whether individual or something

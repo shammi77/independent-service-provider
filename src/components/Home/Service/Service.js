@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 
+
 const Service = ({ service }) => {
   const { name, img, price, description } = service;
   return (
@@ -11,9 +12,9 @@ const Service = ({ service }) => {
         <Card.Title>Package Name: {name}</Card.Title>
         <Card.Text>Price : {price}</Card.Text>
         <Card.Text> Package Details : {description}</Card.Text>
-        
-        <Button variant="primary">Book Now : {name}</Button>
+        <Button variant="primary"> Book Now : {name}</Button>
       </Card.Body>
+      
       </div>
   
     </div>

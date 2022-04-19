@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from "../../firebase.init";
+import SocialLogin from "../Login/SocialLogin/SocialLogin";
 
 
 const SignUp = () => {
@@ -11,7 +12,7 @@ const SignUp = () => {
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
-  const [createUserWithEmailAndPassword,user] = useCreateUserWithEmailAndPassword(auth);
+  const [createUserWithEmailAndPassword,user] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
 
   const handleEmailBlur =event =>{
       setEmail(event.target.value);
@@ -27,6 +28,8 @@ const SignUp = () => {
   }
   const handleCreateUser = event =>{
       event.preventDefault();
+      const email = event.target.email.value;
+      const password = event.target.password.value;
       if(password !== confirmPassword){
           setError('your two passwords didnot match');
           return;
@@ -70,6 +73,7 @@ const SignUp = () => {
               Log In
             </Link>
           </p>
+          <SocialLogin></SocialLogin>
         </div>
       </div>
     </div>
