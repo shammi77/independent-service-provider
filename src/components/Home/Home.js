@@ -1,14 +1,11 @@
 import React from "react";
-import { Button, Carousel } from "react-bootstrap";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
+import { Carousel } from "react-bootstrap";
 import Service from "./Services/Services";
 
 
 const Home = () => {
   return (
     <div>
-      <Header></Header>
       <Carousel>
         <Carousel.Item>
           <img
@@ -24,13 +21,11 @@ const Home = () => {
             alt=""
           />
         </Carousel.Item>
-      </Carousel>
-      
-        
+      </Carousel>  
       
       <Service></Service>
 
-      <Footer></Footer>
+   
     </div>
   );
 };
