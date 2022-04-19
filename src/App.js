@@ -18,7 +18,7 @@ import CheckOut from './components/CheckOut/CheckOut';
 function App() {
   return (
     <div>
-      <h1 className="text-warning">Weeding Photography</h1>
+      <h1 className="text-warning text-center">Weeding Photography</h1>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>

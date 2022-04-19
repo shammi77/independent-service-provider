@@ -5,19 +5,19 @@ import Service from "./Services/Services";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container">
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-70 mt-5" height="500" 
+            className="d-block w-100 mt-5 height-100" 
             src='https://i.ibb.co/GMB41xs/weeding-pic1-2.jpg'
             alt=""
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-70 mt-5" height="500" 
-            src='https://i.ibb.co/s2dKsh9/weeding-pic2-3.jpg'
+            className="d-block w-100 mt-5 height-100" 
+            src='https://i.ibb.co/4P1bTc5/michael-negrete-OYA4j-Uccon-I-unsplash.jpg'
             alt=""
           />
         </Carousel.Item>
